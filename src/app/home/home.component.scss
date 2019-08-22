@@ -17,11 +17,11 @@
 }
 
 .top-home-row {
-  height: 55%;
+  height: 50%;
 }
 
 .bot-home-row {
-  height: 45%;
+  height: 50%;
 }
 
 .home-tile {
@@ -31,11 +31,13 @@
 }
 
 .home-nav {
-  margin-left: 10px;
+  padding: 0 10px;
   color: $fontColorWhite;
   position: relative;
   z-index: 2;
   @include fontColorTransition;
+  background-color: rgba(42,43,49,.6);
+  display: inline-block;
 }
 
 // This selector changes the color of any of the labels for the carousels when the carousel is hovered

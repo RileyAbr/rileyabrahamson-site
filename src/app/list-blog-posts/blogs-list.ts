@@ -214,14 +214,14 @@ export const BLOGSLIST: BlogPost[] = [
         date: "04-25-19",
         abstract: 
             "Research editorial written for COMM 200: Intro to Media Writing. This piece is both an examination and a prediction of mainstream gaming--what drives certain genres and titles to be popular at any one time. In it, I am able to make ties to some of my favorite titles and delve into why they generate stories I still talk about today. I enjoyed making this editorial so much, I even created a video essay on the same topic (which you can find under my portfolio!)",
-        mediaPath: "/assets/img/blog/2/moments.jpg",
+        mediaPath: "/assets/img/portfolio/moments.jpg",
         bodyParagraphs: 
         [
             {
                 hasSubheading: false,
                 subheading: "",
                 hasImage: true,
-                mediaPath: "/assets/img/blog/2/moments.jpg",
+                mediaPath: "/assets/img/portfolio/moments.jpg",
                 isItalic: false,
                 text:
                 "Gaming, like all other entertainment media, has gone through periods of design or clichés. Traditional art went through Impressionism to Post-Impressionism, Literature hit a streak of young adult dystopian fiction, and Film was “plagued” by an infection of Zombie-themed thrillers. However, modern gaming’s biggest trend isn’t in a specific visual or aesthetic but rather in a feeling, in a visceral endorphin rush that keeps players coming back for more: moments."

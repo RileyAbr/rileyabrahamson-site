@@ -319,7 +319,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         longDesc:
             "Video essay feature story developed for COMM 200: Intro to Media Writing. Original story drafted as a long-form feature story, then an editorial, and finally a video essay. The video breaks down the recent trend of \"moments\" in modern gaming--the phenomenon by which gamers are put into heart-pumping environments more often. The essay delves into this trend through gaming history, with highlights in modern popular streaming platform games, such as Fortnite and League of Legends.",
         techUsed: "Premiere Pro, After Effects",
-        modalMediaPath: "/assets/video/portfolio/moments_clip.MOV",
+        modalMediaPath: "/assets/video/portfolio/moments_clip.mp4",
         modalIsImage: false,
         hasExternalLink: true,
         externalLink: "https://youtu.be/0xHDnd1c2MA",

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "rileyabr": {
+    "rileyabrahamson-site": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/rileyabr",
+            "outputPath": "dist/rileyabrahamson-site",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "rileyabr:build"
+            "browserTarget": "rileyabrahamson-site:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "rileyabr:build:production"
+              "browserTarget": "rileyabrahamson-site:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "rileyabr:build"
+            "browserTarget": "rileyabrahamson-site:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "rileyabr:serve"
+            "devServerTarget": "rileyabrahamson-site:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "rileyabr:serve:production"
+              "devServerTarget": "rileyabrahamson-site:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "rileyabr"
+  "defaultProject": "rileyabrahamson-site"
 }

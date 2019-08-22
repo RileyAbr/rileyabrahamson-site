@@ -34,7 +34,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "B.A. in Computer Science",
                 date: "August 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ndsubison.jpg",
+                mediaPath: "/assets/img/ry/ry_bison.jpg",
                 hasBullets: false,
                 bullets:
                     [
@@ -51,7 +51,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "August 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ACM_Logo.PNG",
+                mediaPath: "/assets/img/studentorgs/ACM_Logo.PNG",
                 hasBullets: false,
                 bullets:
                     [
@@ -68,7 +68,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "August 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/bisonrobotics.jpg",
+                mediaPath: "/assets/img/studentorgs/bisonrobotics.jpg",
                 hasBullets: false,
                 bullets:
                     [
@@ -85,7 +85,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "August 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ndsuoverwatch.jpg",
+                mediaPath: "/assets/img/studentorgs/ndsuoverwatch.jpg",
                 hasBullets: false,
                 bullets:
                     [
@@ -102,7 +102,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Learning Assistant",
                 date: "October 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ry_qbbsign.jpg",
+                mediaPath: "/assets/img/ry/ry_qbbsign.jpg",
                 hasBullets: true,
                 bullets:
                     [
@@ -121,7 +121,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "1st Place",
                 date: "October 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/zerospace.png",
+                mediaPath: "/assets/img/portfolio/zerospace.png",
                 hasBullets: false,
                 bullets:
                     [
@@ -138,7 +138,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "2nd Place",
                 date: "October 2017",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/combocrazy.png",
+                mediaPath: "/assets/img/portfolio/combocrazy.png",
                 hasBullets: false,
                 bullets:
                     [
@@ -155,7 +155,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "3.0 or Higher GPA",
                 date: "December 2017",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -177,7 +177,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "2nd Place",
                 date: "January 2018",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/dungeondelvers.png",
+                mediaPath: "/assets/img/portfolio/dungeondelvers.png",
                 hasBullets: false,
                 bullets:
                     [
@@ -194,7 +194,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Write It, Do It Event Facilitator",
                 date: "April 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: true,
                 bullets:
                     [
@@ -212,7 +212,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Strategic Communication",
                 date: "March 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -229,7 +229,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "1 of 2 Full Years",
                 date: "May 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -246,7 +246,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Media Specialist",
                 date: "May 2018",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ndsutlmc.JPG",
+                mediaPath: "/assets/img/resume/tlmcsign.JPG",
                 hasBullets: true,
                 bullets:
                     [
@@ -267,7 +267,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "3.0 or Higher GPA",
                 date: "May 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -335,7 +335,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Time to Shred",
                 date: "July 2018",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/skateboard.jpg",
+                mediaPath: "/assets/img/ry/ry_skateboard2.jpg",
                 hasBullets: false,
                 bullets:
                     [
@@ -352,7 +352,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "July 2018",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/lolclub2018.jpg",
+                mediaPath: "/assets/img/studentorgs/lolclub2018.jpg",
                 hasBullets: false,
                 bullets:
                     [
@@ -369,7 +369,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org Elected Officer",
                 date: "August 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: true,
                 bullets:
                     [
@@ -390,7 +390,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "August 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -407,7 +407,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "September 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -424,7 +424,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Software Engineer Intern",
                 date: "October 2018",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ry_wex_backpack.jpg",
+                mediaPath: "/assets/img/ry/ry_wex_backpack.jpg",
                 hasBullets: true,
                 bullets:
                     [
@@ -445,7 +445,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Pursuing Internship",
                 date: "December 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -462,7 +462,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "3.0 or Higher GPA",
                 date: "December 2018",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -484,7 +484,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "College of Science and Math Ambassador",
                 date: "",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: true,
                 bullets:
                     [
@@ -502,7 +502,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "2 of 2 Full Years",
                 date: "May 2019",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -519,7 +519,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "1 of 3 Minors",
                 date: "May 2019",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -536,7 +536,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org Elected Officer",
                 date: "May 2019",
                 hasImage: true,
-                mediaPath: "/assets/img/resume/ndsulolclub_s2019_firstmeeting.jpg",
+                mediaPath: "/assets/img/studentorgs/lolclub_s2019_firstmeeting.jpg",
                 hasBullets: true,
                 bullets:
                     [
@@ -557,7 +557,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "3.0 or Higher GPA",
                 date: "May 2019",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: false,
                 bullets:
                     [
@@ -574,7 +574,7 @@ export const EVENTLIST: ResumeListing[] = [
                 tagline: "Student Org",
                 date: "August 2019",
                 hasImage: false,
-                mediaPath: "/assets/img/resume/",
+                mediaPath: "/assets/img/",
                 hasBullets: true,
                 bullets:
                     [
