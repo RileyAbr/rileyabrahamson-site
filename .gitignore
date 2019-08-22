@@ -7,6 +7,9 @@
 # Only exists if Bazel was run
 /bazel-out
 
+# firebase deployment files
+/.firebase
+
 # dependencies
 /node_modules
 
@@ -44,3 +47,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Heavy load files
+/src/assets/video
