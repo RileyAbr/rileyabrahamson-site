@@ -416,8 +416,8 @@ export const PROJECTLIST: PortfolioProject[] = [
         longDesc:
             "An app combining calculator function with \"WarioWare\" style minigames between each key-press. Developed to practice with game design as well as to create a full-fledged deliverable with GameMaker Studio 2. Minigames are launched whenever a number key is selected on the calculator interface, up to one at a time. All numbers have a unique minigame task associated with their value--ranging from catching balls in a bucket to driving a race car to playing rock, paper, scissors. Minigames are played with either a keyboard or mouse, depending on the selected level.",
         techUsed: "GameMaker Studio 2",
-        modalMediaPath: "/assets/img/portfolio/previews/calcuplayer_preview.png",
-        modalIsImage: true,
+        modalMediaPath: "/assets/video/portfolio/calcuplayer_clip.mp4",
+        modalIsImage: false,
         hasExternalLink: true,
         externalLink: "https://rileyabr.github.io/calcuplayer/calcuplayer.html",
         hasGithHubRepo: true,
