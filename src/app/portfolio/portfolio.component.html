@@ -44,14 +44,14 @@
                         <ng-container [ngTemplateOutlet]="project.hasExternalLink ? external_template : ''"
                             [ngTemplateOutletContext]="{project:project}">
                             <ng-template #external_template let-project="project">
-                                <a type="button" class="modal-btn btn btn-outline-dark" href={{project.externalLink}}
+                                <a type="button" class="modal-btn btn-outline-dark" href={{project.externalLink}}
                                     target="_blank">Link to Project</a>
                             </ng-template>
                         </ng-container>
                         <ng-container [ngTemplateOutlet]="project.hasGithHubRepo ? github_template : ''"
                             [ngTemplateOutletContext]="{project:project}">
                             <ng-template #github_template let-project="project">
-                                <a type="button" class="modal-btn btn btn-outline-dark" href={{project.gitHubLink}}
+                                <a type="button" class="modal-btn" href={{project.gitHubLink}}
                                     target="_blank">Link to GitHub Repo</a>
                             </ng-template>
                         </ng-container>

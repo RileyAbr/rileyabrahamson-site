@@ -30,6 +30,12 @@
   display: block;
   margin: auto;
 }
+@media only screen and (max-width: nth($media-sizes, 2)) {
+  .overlay-image {
+    width: auto;
+    height: 100%;
+  }
+}
 
 .overlay-hover {
   position: absolute;
@@ -102,10 +108,13 @@
 .modal-preview-image {
   max-width: 100%;
   @include lightShadowBorder;
+  display: block;
+  margin: 0 auto;
 }
 .modal-preview-clip {
   max-width: 100%;
   @include lightShadowBorder;
+  margin: 0 auto;
 }
 
 .modal-footer {

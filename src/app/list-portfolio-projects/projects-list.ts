@@ -178,7 +178,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         modalMediaPath: "/assets/video/portfolio/combocrazy_clip.mp4",
         modalIsImage: false,
         hasExternalLink: false,
-        externalLink: "http://www.rileyabrahamson.com/combocrazy/combocrazy.html",
+        externalLink: "https://rileyabr.github.io/combocrazy/combocrazy.html",
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/Combo-Crazy"
     },
@@ -419,7 +419,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         modalMediaPath: "/assets/img/portfolio/previews/calcuplayer_preview.png",
         modalIsImage: true,
         hasExternalLink: true,
-        externalLink: "",
+        externalLink: "https://rileyabr.github.io/calcuplayer/calcuplayer.html",
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/Calcuplayer"
     },

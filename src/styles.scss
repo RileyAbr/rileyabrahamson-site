@@ -35,6 +35,11 @@ main {
   padding: 10px 0;
 }
 
+// Override random webkit button rendering
+button {
+  -webkit-appearance: none;
+}
+
 // This sits here, as the .modal-content div can't pick up styles because it is generated with an ng directive
 .modal-content {
   background-color: $blockColorWhite;
@@ -77,7 +82,7 @@ main {
 .carousel-control-next,
 .carousel-control-prev {
   z-index: 15;
-  align-items: end;
+  align-items: flex-end;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {

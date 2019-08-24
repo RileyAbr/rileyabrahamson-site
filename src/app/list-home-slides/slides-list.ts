@@ -64,10 +64,10 @@ export const PORTFOLIOSLIDES: HomeSlide[] = [
 ] 
 
 export const BLOGSLIDES: HomeSlide[] = [
-    {
-        isImage: false,
-        mediaPath: "/assets/video/blog/handstyping.mp4"
-    },
+    // {
+    //     isImage: false,
+    //     mediaPath: "/assets/video/blog/handstyping.mp4"
+    // },
     {
         isImage: true,
         mediaPath: "/assets/img/ry/ry_bench.jpg"
@@ -83,10 +83,10 @@ export const BLOGSLIDES: HomeSlide[] = [
 ] 
 
 export const CONTACTSLIDES: HomeSlide[] = [
-    {
-        isImage: false,
-        mediaPath: "/assets/video/contact/emailscroll.mp4"
-    },
+    // {
+    //     isImage: false,
+    //     mediaPath: "/assets/video/contact/emailscroll.mp4"
+    // },
     {
         isImage: true,
         mediaPath: "/assets/img/contact/mailbox.jpg"
