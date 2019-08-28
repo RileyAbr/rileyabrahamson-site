@@ -7,6 +7,7 @@
     date: "",
     hasImage: false,
     mediaPath: "/assets/img/resume/",
+    hasBodyContent: false;
     hasBullets: false,
     bullets:
         [
@@ -26,6 +27,7 @@ export class ResumeEvent {
     date: string;
     hasImage: boolean;
     mediaPath: string;
+    hasBodyContent: boolean;
     hasBullets: boolean; //determines if the event has a set of bulletpoints, like a job entry, or a full description
     bullets: string[];
     desc: string;

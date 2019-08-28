@@ -61,7 +61,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "CSCI 160 Project",
         previewLine2: "Atari \"Camel\"-Like Game",
         longDesc:
-            "A decision making command-line game based on Camel, a title on the original Atari. In this version, the college student has to balance their university life with attempting to make it on an eSports team. Each game day cycle, the student can choose from a variety of activities that affect their core stats: Rank, Skill, Exposure, Grades, Attendance, and Motivation. These activities are also affected by daily modifiers, which influence their strength. If any of these fall too low, the student fails in their journey to stardom. If the student manages to keep life in balance and become signed with a team, they win!",
+            "A decision making command-line game based on Camel, a title on the original Atari. In this version, the college student has to balance their university life while attempting to make it on an eSports team. Each game day cycle, the student can choose from a variety of activities that affect their core stats: Rank, Skill, Exposure, Grades, Attendance, and Motivation. These activities are also affected by daily modifiers, which influence their strength. If any of these fall too low, the student fails in their journey to stardom. If the student manages to keep life in balance and become signed with a team, they win!",
         techUsed: "Java",
         modalMediaPath: "/assets/video/portfolio/collegeethlete_clip.mp4",
         modalIsImage: false,
@@ -125,7 +125,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "JS Utility Project",
         previewLine2: "Customizable In-Browser Clock",
         longDesc:
-            "A webpage built to keep track of time while working late on assignments. All time-tracking and customization is built with vanilla JavaScript. Works perfect in a second monitor.",
+            "A webpage built to keep track of time while working on assignments. All time-tracking and customization is built with vanilla JavaScript. Works perfect in a second monitor.",
         techUsed: "HTML, CSS, JavaScript",
         modalMediaPath: "/assets/video/portfolio/quickqlock_clip.mp4",
         modalIsImage: false,
@@ -253,7 +253,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "NDSU Libraries 2018 Redesign",
         previewLine2: "Assisted Library Web Developer",
         longDesc:
-            "Served as a part of the 2018 NDSU Libraries redesign committee under Jason Bedsaul through COMM 363: Advanced Web Design. Through Garrett's 5 Planes of User Experience as well as the 7 Deadly Sins of web design, I produced wireframes and mock-ups to assist with rebuilding the libraries page following industry UI and UX standards. The page of the libraries site I contributed to highest was the redesign of the Research Guides page.",
+            "Served as a part of the 2018 NDSU Libraries redesign committee, under Jason Bedsaul, through COMM 363: Advanced Web Design. Through Garrett's 5 Planes of User Experience, as well as the 7 Deadly Sins of web design, I produced wireframes and mock-ups to assist with rebuilding the libraries page following industry UI and UX standards. The Research Guides page on the website was my main priority for the project.",
         techUsed: "Xtensio, Photoshop, Illustrator, Slack",
         modalMediaPath: "/assets/img/portfolio/previews/NDSUlibrary_preview.JPG",
         modalIsImage: true,
@@ -285,8 +285,8 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "Intructional Series for Incoming Students",
         previewLine2: "Founder and Lead Designer",
         longDesc:
-            "Tutorial series for essential campus technologies--such as BlackBoard and Office 365--for incoming NDSU students. Served as founder and lead designer for the project in the summer prior to the 2018 academic year for the NDSU Technology Learning & Media Center (TLMC). Created scripts, animations, and recordings for each tutorial. Also compiled a master style guide document, and pre-baked assets The video series continues through student employees at the TLMC, who utilize the style sheet to continue producing tutorials for new software.",
-        techUsed: "Camtasia, After Effects, Office, BlackBoard",
+            "Tutorial series for essential campus technologies--such as Blackboard and Office 365--for incoming NDSU students. Served as founder and lead designer for the project in the summer prior to the 2018 academic year for the NDSU Technology Learning & Media Center (TLMC). Created scripts, animations, and recordings for each tutorial. Also compiled a master style guide document, and pre-baked assets. The video series continues through student employees at the TLMC, who utilize the style sheet to continue producing tutorials for new software.",
+        techUsed: "Camtasia, After Effects, Office, Blackboard",
         modalMediaPath: "/assets/video/portfolio/quickstarts_clip.mp4",
         modalIsImage: false,
         hasExternalLink: true,
@@ -301,7 +301,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "Single Page Multi-Venn Diagram",
         previewLine2: "Programming Tutor and Creative Feedback",
         longDesc:
-            "Single page website hosting an interactive multi-venn diagram. The venn diagram holds the results of a graduate research project over learning modalities and VARK learning styles. Built alongside an NDSU graduate student for EDUC 853. Site is composed ontop of a large SVG composition, and backed by Bootstrap elements. Served as programming assistant and creative feedback.",
+            "Single page website hosting an interactive multi-Venn diagram. The Venn diagram holds the results of a graduate research project over learning modalities and VARK learning styles. Built alongside an NDSU graduate student for EDUC 853. Site is composed on top of a large SVG composition, and backed by Bootstrap elements. Served as programming assistant and creative feedback.",
         techUsed: "Illustrator, Bootstrap, SCSS",
         modalMediaPath: "/assets/video/portfolio/educ853_clip.mp4",
         modalIsImage: false,
@@ -349,7 +349,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "80's Themed \"Barcade\" Website",
         previewLine2: "Front-End Developer, Designer, Angular Assist",
         longDesc:
-            "Website built as a full site redesign for the Pixeled Brewing Co. bar-arcade in Fargo, ND. The site's major requirements were: easy to update content pages and a killer 80's vibe. Using Angular, my group was able to succeed on both front for the client. The site was created as a group collaboration for CSCI 313: Advanced Software Development, in which I worked as the aesthetic designer, front-end developer, and Angular point-of-contact. I was responsible for the conceptualization, wireframes, and eventually front-end code to bring the Outrun landscape to life behind the site. The site is also focused on being lightweight and mobile-friendly, so one can access info about Fargo's coolest bar-arcade anywhere.",
+            "Website built as a full site redesign for the Pixeled Brewing Co. bar-arcade in Fargo, ND. The site's major requirements were: easy to update content pages and a killer 80's vibe. Using Angular, my group was able to succeed on both fronts for the client. The site was created as a group collaboration for CSCI 313: Advanced Software Development, in which I worked as the aesthetic designer, front-end developer, and Angular point-of-contact. I was responsible for the conceptualization, wireframes, and eventually front-end code to bring the Outrun landscape to life behind the site. The site is also focused on being lightweight and mobile-friendly, so one can access info about Fargo's coolest bar-arcade anywhere.",
         techUsed: "Angular, PHP, PostgreSQL, Firebase Database, Bootstrap, SCSS, Trello, Slack",
         modalMediaPath: "/assets/video/portfolio/pixeledbrewing_clip.mp4",
         modalIsImage: false,
@@ -411,7 +411,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         id: 25,
         title: "Calcuplayer",
         mediaPath: "/assets/img/portfolio/calcuplayer.jpg",
-        previewLine1: "Mathmatics with Minigames",
+        previewLine1: "Mathematics with Minigames",
         previewLine2: "Calculator with a twist in GML",
         longDesc:
             "An app combining calculator function with \"WarioWare\" style minigames between each key-press. Developed to practice with game design as well as to create a full-fledged deliverable with GameMaker Studio 2. Minigames are launched whenever a number key is selected on the calculator interface, up to one at a time. All numbers have a unique minigame task associated with their value--ranging from catching balls in a bucket to driving a race car to playing rock, paper, scissors. Minigames are played with either a keyboard or mouse, depending on the selected level.",
@@ -427,14 +427,14 @@ export const PROJECTLIST: PortfolioProject[] = [
         id: 26,
         title: "LEC Countdown",
         mediaPath: "/assets/img/portfolio/leccountdown.jpg",
-        previewLine1: "",
-        previewLine2: "",
+        previewLine1: "Modular Clock App",
+        previewLine2: "Stylized off the LEC League",
         longDesc:
-            "",
+            "A clock/timer visualizer in the style of the League European Championship. Created to practice following design principles from a large company and to show my appreciated to the new design for the LEC. Consists of a single-page web app that mirrors the LEC loading screen between tournament matches, with additional customizations available for users to experiment with.",
         techUsed: "EmberJS, SCSS, JavaScript, Photoshop",
         modalMediaPath: "/assets/img/portfolio/leccountdown.jpg",
         modalIsImage: true,
-        hasExternalLink: true,
+        hasExternalLink: false,
         externalLink: "",
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/Lec-Countdown-Clock"

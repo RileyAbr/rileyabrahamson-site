@@ -11,6 +11,7 @@ import { ResumeListing } from './resume-listing';
     date: "",
     hasImage: false,
     mediaPath: "/assets/img/resume/",
+    hasBodyContent: false,
     hasBullets: false,
     bullets:
         [
@@ -35,12 +36,13 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "August 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/ry/ry_bison.jpg",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
                     ],
                 desc:
-                    "Began my freshman year at NDSU as a Bachelor of Arts Computer Science student. As a B.A. student, I took two years of German language courses. I also added a minor in Web Design.",
+                    "Began my freshman year at NDSU as a Bachelor of Arts Computer Science student. As a B.A. student, I was required to take two years of a foreign language. I chose German. I also added a minor in Web Design.",
                 hasExternalLink: true,
                 externalLink: "https://bulletin.ndsu.edu/undergraduate/program-curriculum/computer-science/#majorbatext",
                 externalLinkText: "Link to Degree Reqs"
@@ -52,6 +54,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "August 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/studentorgs/ACM_Logo.PNG",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -69,6 +72,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "August 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/studentorgs/bisonrobotics.jpg",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -86,6 +90,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "August 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/studentorgs/ndsuoverwatch.jpg",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -103,6 +108,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "October 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/ry/ry_qbbsign.jpg",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -122,6 +128,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "October 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/portfolio/zerospace.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -139,6 +146,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "October 2017",
                 hasImage: true,
                 mediaPath: "/assets/img/portfolio/combocrazy.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -156,12 +164,14 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "December 2017",
                 hasImage: false,
                 mediaPath: "/assets/img/",
-                hasBullets: false,
+                hasBodyContent: true,
+                hasBullets: true,
                 bullets:
                     [
+                        "Completed fall 2017 semester with a 4.0 GPA."
                     ],
                 desc:
-                    "Completed Fall 2017 semester with a 4.0 GPA.",
+                    "",
                 hasExternalLink: false,
                 externalLink: "",
                 externalLinkText: ""
@@ -178,6 +188,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "January 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/portfolio/dungeondelvers.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -195,6 +206,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "April 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -213,6 +225,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "March 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -230,6 +243,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "May 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: false,
                 hasBullets: false,
                 bullets:
                     [
@@ -247,6 +261,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "May 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/resume/tlmcsign.JPG",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -268,12 +283,14 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "May 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
-                hasBullets: false,
+                hasBodyContent: true,
+                hasBullets: true,
                 bullets:
                     [
+                        "Completed spring 2018 semester with a 4.0 GPA."
                     ],
                 desc:
-                    "Completed Spring 2018 semester with a 4.0 GPA. ",
+                    "",
                 hasExternalLink: false,
                 externalLink: "", 
                 externalLinkText: ""
@@ -285,6 +302,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "June 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/resume/MOS_Word.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -302,6 +320,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "June 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/resume/MOS_PowerPoint.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -319,6 +338,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "June 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/resume/MOS_Excel.png",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -336,6 +356,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "July 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/ry/ry_skateboard2.jpg",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -353,6 +374,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "July 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/studentorgs/lolclub2018.jpg",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -366,10 +388,11 @@ export const EVENTLIST: ResumeListing[] = [
             {
                 id: 12,
                 title: "Elected President of NDSU League of Legends Club",
-                tagline: "Student Org Elected Officer",
+                tagline: "Student Org",
                 date: "August 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -386,11 +409,12 @@ export const EVENTLIST: ResumeListing[] = [
             },
             {
                 id: 13,
-                title: "Continued Membership with NDSU Association of Computing Machinery ",
+                title: "Continued Membership with NDSU ACM",
                 tagline: "Student Org",
                 date: "August 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: false,
                 hasBullets: false,
                 bullets:
                     [
@@ -408,6 +432,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "September 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: false,
                 bullets:
                     [
@@ -425,6 +450,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "October 2018",
                 hasImage: true,
                 mediaPath: "/assets/img/ry/ry_wex_backpack.jpg",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -442,10 +468,11 @@ export const EVENTLIST: ResumeListing[] = [
             {
                 id: 16,
                 title: "Resigned at NDSU Technology Learning & Media Center",
-                tagline: "Pursuing Internship",
+                tagline: "Pursued Internship",
                 date: "December 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: false,
                 hasBullets: false,
                 bullets:
                     [
@@ -463,12 +490,14 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "December 2018",
                 hasImage: false,
                 mediaPath: "/assets/img/",
-                hasBullets: false,
+                hasBodyContent: true,
+                hasBullets: true,
                 bullets:
                     [
+                        "Completed fall 2018 semester with a 4.0 GPA."
                     ],
                 desc:
-                    "Completed Fall 2018 semester with a 4.0 GPA.",
+                    "",
                 hasExternalLink: false,
                 externalLink: "",
                 externalLinkText: ""
@@ -482,9 +511,10 @@ export const EVENTLIST: ResumeListing[] = [
                 id: 1,
                 title: "Volunteered at Discover NDSU",
                 tagline: "College of Science and Math Ambassador",
-                date: "",
+                date: "February 2019",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -503,6 +533,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "May 2019",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: false,
                 hasBullets: false,
                 bullets:
                     [
@@ -516,10 +547,11 @@ export const EVENTLIST: ResumeListing[] = [
             {
                 id: 3,
                 title: "Completed Web Design Minor",
-                tagline: "1 of 3 Minors",
+                tagline: "1 of 2 Minors",
                 date: "May 2019",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: false,
                 hasBullets: false,
                 bullets:
                     [
@@ -533,10 +565,11 @@ export const EVENTLIST: ResumeListing[] = [
             {
                 id: 4,
                 title: "Re-elected as NDSU League of Legends Club President",
-                tagline: "Student Org Elected Officer",
+                tagline: "Student Org",
                 date: "May 2019",
                 hasImage: true,
                 mediaPath: "/assets/img/studentorgs/lolclub_s2019_firstmeeting.jpg",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [
@@ -558,12 +591,14 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "May 2019",
                 hasImage: false,
                 mediaPath: "/assets/img/",
-                hasBullets: false,
+                hasBodyContent: true,
+                hasBullets: true,
                 bullets:
                     [
+                        "Completed spring 2019 semester with a 4.0 GPA."
                     ],
                 desc:
-                    "Completed Spring 2019 semester with a 4.0 GPA.",
+                    "",
                 hasExternalLink: false,
                 externalLink: "",
                 externalLinkText: ""
@@ -575,6 +610,7 @@ export const EVENTLIST: ResumeListing[] = [
                 date: "August 2019",
                 hasImage: false,
                 mediaPath: "/assets/img/",
+                hasBodyContent: true,
                 hasBullets: true,
                 bullets:
                     [

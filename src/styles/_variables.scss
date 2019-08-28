@@ -102,6 +102,11 @@ $fontColorPurple: $blockColorPurple;
   padding: 9px 20px;
   @include bodyFont;
   color: $fontColorWhite;
+  @include opacityTransition();
+
+  &:hover, &:focus, &:active {
+    @include hoverOpacityTransition;
+  }
 }
 
 @mixin underlineLink {
