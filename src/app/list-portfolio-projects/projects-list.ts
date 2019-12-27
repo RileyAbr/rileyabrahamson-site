@@ -358,22 +358,23 @@ export const PROJECTLIST: PortfolioProject[] = [
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/313pixelbuilders"
     },
-    { 
-        id: 22,
-        title: "The Half-Pipe Skateboarding Blog",
-        mediaPath: "/assets/img/portfolio/halfpipe.jpg",
-        previewLine1: "Skateboarding Blog and Learning Resource",
-        previewLine2: "Built in Wordpress for COMM 261",
-        longDesc:
-            "Blog and instructional site centered around skateboarding-focused on new skateboarders. Developed in WordPress with an emphasis on modifying core child themes and minimal plugins. ",
-        techUsed: "Angular, PHP, PostgreSQL, Firebase Database, Bootstrap, SCSS, Trello, Slack",
-        modalMediaPath: "/assets/video/portfolio/halfpipe_clip.mp4",
-        modalIsImage: true,
-        hasExternalLink: false,
-        externalLink: "",
-        hasGithHubRepo: true,
-        gitHubLink: "https://github.com/RileyAbr/The-Half-Pipe"
-    },
+    // Disabled until I find a new Wordpress host
+    // { 
+    //     id: 22,
+    //     title: "The Half-Pipe Skateboarding Blog",
+    //     mediaPath: "/assets/img/portfolio/halfpipe.jpg",
+    //     previewLine1: "Skateboarding Blog and Learning Resource",
+    //     previewLine2: "Built in Wordpress for COMM 261",
+    //     longDesc:
+    //         "Blog and instructional site centered around skateboarding-focused on new skateboarders. Developed in WordPress with an emphasis on modifying core child themes and minimal plugins. ",
+    //     techUsed: "Angular, PHP, PostgreSQL, Firebase Database, Bootstrap, SCSS, Trello, Slack",
+    //     modalMediaPath: "/assets/video/portfolio/halfpipe_clip.mp4",
+    //     modalIsImage: true,
+    //     hasExternalLink: false,
+    //     externalLink: "",
+    //     hasGithHubRepo: true,
+    //     gitHubLink: "https://github.com/RileyAbr/The-Half-Pipe"
+    // },
     {
         id: 23,
         title: "NDSU League of Legends Club Year 18-19 Montage",
@@ -461,7 +462,7 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "Data Mining in LoL Match Data",
         previewLine2: "Frequencies and Clasification",
         longDesc:
-            "~",
+            "Research projects into mining frequent patterns from League of Legends data regarding champions and first objectives. Data collection via Python and MongoDB",
         techUsed: "Python, R, MongoDB, Riot API, Discord",
         modalMediaPath: "/assets/img/portfolio/frequent.jpg",
         modalIsImage: true,
