@@ -462,13 +462,13 @@ export const PROJECTLIST: PortfolioProject[] = [
         previewLine1: "Data Mining in LoL Match Data",
         previewLine2: "Frequencies and Clasification",
         longDesc:
-            "Research projects into mining frequent patterns from League of Legends data regarding champions and first objectives. Data collection via Python and MongoDB",
+            "Research project into mining frequent patterns from League of Legends match data. Project composed of data collection, data storage, frequency mining, classification, and analysis. Over 20k matches worth of data was collected from the Riot API via Python and stored in a MongoDB database. Data was then used in mining algorithms in both Python and R. Algorithms used include Apriori, KNN, and Naïve Bayers. Created for CSCI 479: Data Mining alongside one teammate. I handled data collection and database instantiation and administration. I also pre-processed match data to fit into the specifications of our Python and R algorithms.",
         techUsed: "Python, R, MongoDB, Riot API, Discord",
-        modalMediaPath: "/assets/img/portfolio/frequent.jpg",
+        modalMediaPath: "/assets/img/portfolio/previews/frequent_preview.jpg",
         modalIsImage: true,
-        hasExternalLink: false,
-        externalLink: "",
+        hasExternalLink: true,
+        externalLink: "https://www.dropbox.com/s/u3wvsakwyydpxvk/CSCI%20479%20Frequent%20of%20Legends%20Report.pdf?dl=0",
         hasGithHubRepo: true,
-        gitHubLink: "https://github.com/RileyAbr/Peer-2-Pocketmonster"
+        gitHubLink: "https://github.com/RileyAbr/Frequent-of-Legends"
     },
 ]
