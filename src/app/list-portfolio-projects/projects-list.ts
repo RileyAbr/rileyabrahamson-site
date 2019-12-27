@@ -358,23 +358,22 @@ export const PROJECTLIST: PortfolioProject[] = [
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/313pixelbuilders"
     },
-    //Removed while looking for a new host
-    // { 
-    //     id: 22,
-    //     title: "The Half-Pipe Skateboarding Blog",
-    //     mediaPath: "/assets/img/portfolio/halfpipe.jpg",
-    //     previewLine1: "Skateboarding Blog and Learning Resource",
-    //     previewLine2: "Built in Wordpress for COMM 261",
-    //     longDesc:
-    //         "Blog and instructional site centered around skateboarding-focused on new skateboarders. Developed in WordPress with an emphasis on modifying core child themes and minimal plugins. ",
-    //     techUsed: "Angular, PHP, PostgreSQL, Firebase Database, Bootstrap, SCSS, Trello, Slack",
-    //     modalMediaPath: "/assets/video/portfolio/halfpipe_clip.mp4",
-    //     modalIsImage: true,
-    //     hasExternalLink: false,
-    //     externalLink: "",
-    //     hasGithHubRepo: true,
-    //     gitHubLink: "https://github.com/RileyAbr/The-Half-Pipe"
-    // },
+    { 
+        id: 22,
+        title: "The Half-Pipe Skateboarding Blog",
+        mediaPath: "/assets/img/portfolio/halfpipe.jpg",
+        previewLine1: "Skateboarding Blog and Learning Resource",
+        previewLine2: "Built in Wordpress for COMM 261",
+        longDesc:
+            "Blog and instructional site centered around skateboarding-focused on new skateboarders. Developed in WordPress with an emphasis on modifying core child themes and minimal plugins. ",
+        techUsed: "Angular, PHP, PostgreSQL, Firebase Database, Bootstrap, SCSS, Trello, Slack",
+        modalMediaPath: "/assets/video/portfolio/halfpipe_clip.mp4",
+        modalIsImage: true,
+        hasExternalLink: false,
+        externalLink: "",
+        hasGithHubRepo: true,
+        gitHubLink: "https://github.com/RileyAbr/The-Half-Pipe"
+    },
     {
         id: 23,
         title: "NDSU League of Legends Club Year 18-19 Montage",
@@ -439,5 +438,36 @@ export const PROJECTLIST: PortfolioProject[] = [
         hasGithHubRepo: true,
         gitHubLink: "https://github.com/RileyAbr/Lec-Countdown-Clock"
     },
-
+    {
+        id: 27,
+        title: "Peer-2-Pocket Monsters",
+        mediaPath: "/assets/img/portfolio/peer2pocket.jpg",
+        previewLine1: "Monster Battling App",
+        previewLine2: "Peer-to-Peer Battles In-Browser",
+        longDesc:
+            "~",
+        techUsed: "HTML5, SCSS, JavaScript, PeerJS",
+        modalMediaPath: "/assets/img/portfolio/peer2pocket.jpg",
+        modalIsImage: true,
+        hasExternalLink: true,
+        externalLink: "https://peer2pocketmonsters.web.app/",
+        hasGithHubRepo: true,
+        gitHubLink: "https://github.com/RileyAbr/Peer-2-Pocketmonster"
+    },
+    {
+        id: 28,
+        title: "Frequent of Legends",
+        mediaPath: "/assets/img/portfolio/frequent.jpg",
+        previewLine1: "Data Mining in LoL Match Data",
+        previewLine2: "Frequencies and Clasification",
+        longDesc:
+            "~",
+        techUsed: "Python, R, MongoDB, Riot API, Discord",
+        modalMediaPath: "/assets/img/portfolio/frequent.jpg",
+        modalIsImage: true,
+        hasExternalLink: false,
+        externalLink: "",
+        hasGithHubRepo: true,
+        gitHubLink: "https://github.com/RileyAbr/Peer-2-Pocketmonster"
+    },
 ]

@@ -1,4 +1,3 @@
-import { BlogParagraph } from './blog-paragraph'; 
 import { BlogPost } from './blog-post';
 
 // New Blog Template
