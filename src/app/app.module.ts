@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 // Angular-native Bootstrap components
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+// Angular Markdown Converter
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { MarkdownModule } from 'ngx-markdown';
+
 // Site page components
 import { NavHeaderComponent } from './nav-header/nav-header.component';
 import { NavToTopComponent } from './nav-to-top/nav-to-top.component';
@@ -36,7 +40,9 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
   providers: [],
   bootstrap: [AppComponent]

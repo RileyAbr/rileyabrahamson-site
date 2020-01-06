@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'resume', component: ResumeComponent},
   { path: 'portfolio', component: PortfolioComponent},
   { path: 'blog', component: BlogComponent},
-  { path: 'blog/:id', component: BlogPostComponent},
+  { path: 'blog/:urlTitle', component: BlogPostComponent},
   { path: 'contact', component: ContactComponent},
   // Any lost paths are taken back to the homepage
   { path: '**', redirectTo: '', pathMatch: 'full'},

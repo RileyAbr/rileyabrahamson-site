@@ -21,13 +21,37 @@
 }
 
 .blog-top-btn {
-  margin: 0 auto;
+  margin: 0 auto 10px;
   display: block;
 }
 
-.blog-post-wrapper {
+.blog-post {
+  display: block;
   width: 92%;
   margin: 0 auto;
+  text-indent: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.blog-post > p {
+}
+
+.blog-post > h4 {
+  font-size: 1.45rem;
+  font-weight: 500;
+  text-indent: 0;
+}
+
+.blog-post > p > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  @include lightShadowBorder;
+  margin: 0 auto 1rem;
+
+  @media only screen and (max-width: nth($media-sizes, 4)) {
+    margin-top: 1rem;
+  }
 }
 
 .blog-image {

@@ -18,8 +18,15 @@ export class BlogService {
   }
 
   //Returns a single blog post
+  // Uses the ID to find a blog
   getBlogByID(id: number): Observable<BlogPost> {
     return of(BLOGSLIST.find(BlogPost => BlogPost.id === id));
+  }
+
+  //Returns a single blog post
+  // Uses the ID to find a blog
+  getBlogByUrlTitle(urlTitle: string): Observable<BlogPost> {
+    return of(BLOGSLIST.find(BlogPost => BlogPost.urlTitle === urlTitle));
   }
 
 }

@@ -5,10 +5,14 @@ import { TitleService } from '../title.service';
 import { BlogService } from '../list-blog-posts/blog.service';
 import { BlogPost } from '../list-blog-posts/blog-post';
 
+import { MarkdownService } from 'ngx-markdown';
+import {ViewEncapsulation} from '@angular/core';
+
 @Component({
   selector: 'app-blog-post',
   templateUrl: './blog-post.component.html',
-  styleUrls: ['./blog-post.component.scss']
+  styleUrls: ['./blog-post.component.scss'],
+  encapsulation: ViewEncapsulation.None, //This is added on to aid with assigning styles to the child DOM elements of the markdown tag
 })
 export class BlogPostComponent implements OnInit {
 
@@ -35,12 +39,12 @@ export class BlogPostComponent implements OnInit {
 
   ngOnInit() {
     this.getBlog();
-    this.titleService.setTertiaryTitle("Blog", this.blog.id.toString());
+    this.titleService.setSecondaryTitle(this.blog.title.toString());
   }
 
   getBlog() {
-    const id = +this.route.snapshot.paramMap.get('id');
-    this.blogService.getBlogByID(id).subscribe(incomingBlog => this.blog = incomingBlog);
+    const urlTitle = this.route.snapshot.paramMap.get('urlTitle');
+    this.blogService.getBlogByUrlTitle(urlTitle).subscribe(incomingBlog => this.blog = incomingBlog);
   }
 
   goBack(): void {
