@@ -60,5 +60,15 @@ export const BLOGSLIST: BlogPost[] = [
         abstract: 
             "This is a piece I've been working on for around two years now. I've written and re-written out the concept many times, reiterating my thoughts each time. The crux of the arguement is not one unfamilar to people in the entertainment industry--video games can contain deep and thoughtful messages--but this has been my take on introducing it in more academic settings. Therefore, the introductions/descriptions of some of the examples may seem contrived for gamers, but it should be helpful for those outside of the subculture. Original art courtesy of Jacob van Ruisdael, supplied by The Metropolitan Museum of Art, New York",
         mediaPath: "/assets/img/blog/an-8-bit-arguement-for-art/pixelart.jpg",
+    },
+    {
+        id: 4,
+        urlTitle: "what-the-golf-and-strokes-of-genius",
+        title: "WHAT THE GOLF? and Strokes of Genius",
+        tagline: "From golf pars to race cars and all in-between",
+        date: "January 5th, 2020",
+        abstract: 
+            "",
+        mediaPath: "/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-blog.jpg",
     }
 ]

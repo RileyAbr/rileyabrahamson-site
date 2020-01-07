@@ -54,32 +54,14 @@
   }
 }
 
-.blog-image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  @include lightShadowBorder;
-  margin: 0 auto 1rem;
-}
-@media only screen and (max-width: nth($media-sizes, 4)) {
-  .blog-image {
-    margin-top: 1rem;
+.blog-post > p > a{
+  text-decoration: underline;
+
+  &:hover {
+    @include hoverOpacityTransition;
   }
 }
 
-.blog-subheading {
-  font-size: 1.45rem;
-  font-weight: 500;
-}
-
-.blog-paragraph {
-  text-indent: 1.5rem;
-  font-size: 1.15rem;
-}
-
-.blog-italic {
-  font-style: italic;
-}
 
 // Only positions the Twitter module, it is loaded dynamically with its own attributes
 .twitter-wrapper {

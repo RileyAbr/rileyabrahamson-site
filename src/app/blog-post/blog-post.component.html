@@ -11,29 +11,9 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-6 blog-post-wrapper">
-
                 <!-- This div uses ngx-markdown to load blog info from markdown files -->
                 <div markdown class="blog-post" src="{{'/assets/blog/blogs/' + blog.urlTitle + '.md'}}"></div>
                 
-                <!-- <div *ngIf="blog" class="blog-post-wrapper">
-                    <ng-container *ngFor="let paragraph of blog.bodyParagraphs">
-                        <ng-container [ngTemplateOutlet]="paragraph.hasImage ? img_template : ''">
-                            <ng-template #img_template>
-                                <img class="blog-image" src={{paragraph.mediaPath}} alt="">
-                            </ng-template>
-                        </ng-container>
-                        <ng-container [ngTemplateOutlet]="paragraph.hasSubheading ? subhead_template : ''">
-                            <ng-template #subhead_template>
-                                <h5 class="blog-subheading">{{paragraph.subheading}}</h5>
-                            </ng-template>
-                        </ng-container>
-                        <p class="blog-paragraph" [ngClass]="{'blog-italic': paragraph.isItalic}">
-                            {{paragraph.text}}
-                        </p>
-                    </ng-container>
-                    
-                </div> -->
-        
                 <button class="blog-top-btn btn" (click)="scrollToTop()">Return to Top</button>
             </div>
 
