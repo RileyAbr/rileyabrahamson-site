@@ -3,27 +3,27 @@ While playing through *WHAT THE GOLF?* via the Apple Arcade over the winter holi
 #### Rotato, rotato
 In one of the earlier sections of the game full of disorienting space levels, you come upon a challenge to send a planet across a screen full of other cosmic clutter, but in only 2 hits.
 
-!["A screenshot of a space level focused around planets from WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-1.jfif "A screenshot of a space level focused around planets from WHAT THE GOLF?")
+!["A screenshot of a space level focused around planets from WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-1.jpg "A screenshot of a space level focused around planets from WHAT THE GOLF?")
 
 After the first swing, the planet will begin hurtling across the top and bottom of the screen in a loop. Now, players COULD try to find the right measure of force to send it towards the right in a never-ending free fall between the top and bottom borders...
 
-!["The player attempting to launch a planet to the right in WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-2.jfif "The player attempts to launch a planet to the right in WHAT THE GOLF?")
+!["The player attempting to launch a planet to the right in WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-2.jpg "The player attempts to launch a planet to the right in WHAT THE GOLF?")
 
 ...or you could just send it to the left! (Because the screen wraps that way too!).
 
-!["The player attempting to launch a planet to the left in WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-3.jfif "The player attempting to launch a planet to the left in WHAT THE GOLF?")
+!["The player attempting to launch a planet to the left in WHAT THE GOLF?"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-space-3.jpg "The player attempting to launch a planet to the left in WHAT THE GOLF?")
 
 #### Ninja Style
 
 Another great example of how the game makes you feel as if you are thinking outside the box is in this simple platforming level:
 
-!["A level from WHAT THE GOLF? that tasks the player to reach a flag in five jumps"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-jump-1.jfif "A level from WHAT THE GOLF? that tasks the player to reach a flag in five jumps")
+!["A level from WHAT THE GOLF? that tasks the player to reach a flag in five jumps"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-jump-1.jpg "A level from WHAT THE GOLF? that tasks the player to reach a flag in five jumps")
 
 The second iteration of the level asks you to hit the flag in five hops. While it is possible via going through the tunnel on the right, it can be a tight fit with only five jumps as opposed to the unlimited from the first rendition of the level. 
 
 So instead I just, uh, yeet’d myself off the wall on the side.
 
-!["The same level from WHAT THE GOLF? mentioned before, but the player character is hanging off a tall wall overlooking the flag post"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-jump-2.jfif "The same level from WHAT THE GOLF? mentioned before, but the player character is hanging off a tall wall overlooking the flag post")
+!["The same level from WHAT THE GOLF? mentioned before, but the player character is hanging off a tall wall overlooking the flag post"](/assets/img/blog/what-the-golf-and-strokes-of-genius/wtg-jump-2.jpg "The same level from WHAT THE GOLF? mentioned before, but the player character is hanging off a tall wall overlooking the flag post")
 
 *WHAT THE GOLF?* gives so much freedom in its simple expression of mechanics that players are really free to experiment and see how much they can break the game—whether some of these breaks were intended or not.
 

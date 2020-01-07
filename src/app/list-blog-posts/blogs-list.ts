@@ -53,13 +53,13 @@ export const BLOGSLIST: BlogPost[] = [
     },
     {
         id: 3,
-        urlTitle: "an-8-bit-arguement-for-art",
-        title: "An 8-Bit Arguement for Art",
+        urlTitle: "an-8-bit-argument-for-art",
+        title: "An 8-Bit Argument for Art",
         tagline: "Video games can be more than just fun",
         date: "August 10th, 2019",
         abstract: 
             "This is a piece I've been working on for around two years now. I've written and re-written out the concept many times, reiterating my thoughts each time. The crux of the arguement is not one unfamilar to people in the entertainment industry--video games can contain deep and thoughtful messages--but this has been my take on introducing it in more academic settings. Therefore, the introductions/descriptions of some of the examples may seem contrived for gamers, but it should be helpful for those outside of the subculture. Original art courtesy of Jacob van Ruisdael, supplied by The Metropolitan Museum of Art, New York",
-        mediaPath: "/assets/img/blog/an-8-bit-arguement-for-art/pixelart.jpg",
+        mediaPath: "/assets/img/blog/an-8-bit-argument-for-art/pixelart.jpg",
     },
     {
         id: 4,
